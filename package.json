@@ -1,0 +1,23 @@
+{
+  "name": "webhook-retry-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Webhook delivery and retry engine",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "start": "tsx src/cliDemo.ts",
+    "build": "tsc",
+    "server": "tsx src/mockReceiver.ts",
+    "start:keep-alive": "tsx src/cliDemo.ts --keep-alive"
+  },
+  "author": "Aakarsh Sharma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.1"
+  }
+}
